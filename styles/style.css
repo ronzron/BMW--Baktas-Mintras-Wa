@@ -1,0 +1,232 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5,h8 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --text: #250b04;
+      --background: #fef9f6;
+      --primary: #e75618;
+      --secondary: #74bff1;
+      --accent: #9c46ec;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #fbe1da;
+      --background: #090401;
+      --primary: #e75618;
+      --secondary: #0e598b;
+      --accent: #6913b9;
+    }
+  }
+
+/* NAVBAR Section */
+
+
+body{
+    background-color: var(--background);
+    margin:0;
+    padding:0;
+}
+
+
+.topNavBar{
+    background-color: #0a0a23;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#homePage,
+#aboutPage {
+    margin-left: 2px; /* Adjust margin between links */
+  
+}
+
+.topNavBar a{
+   color:white;
+   padding: 10px;
+   padding-bottom: 20px;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   font-size: 2.369rem;
+}
+
+.title-section{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.subtitle-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--text);
+}
+p{
+    color: var(--text);
+}
+
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width:30rem; 
+   margin: 0 auto;
+
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.card-content {
+  padding: 1rem 1rem 1rem ;
+  display: flex;
+  flex-direction: column;
+}
+.card-content h3{
+  padding: 1rem 1rem 1rem ;
+  margin: 0;
+}
+
+.card-content h5{
+  padding: 1rem 1rem 1rem ;
+  margin: 0;
+}
+
+.card-content .btn{
+  margin-top: auto;
+  display: block;
+  padding: 1rem 1rem 1rem ;
+  display: inline-block;
+  background-color: var(--primary);
+  text-decoration: none;
+  border-radius: 1rem ;
+  color: var(--text);
+  margin-left:13rem;
+}
+@media (min-width: 400px) {
+  .card {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+
+/* image container */
+.image-container {
+  position: relative;
+}
+
+.image-caption {
+  position: absolute;
+  top: 0; /* Set to the top of the image */
+  left: 0;
+  width: 10%;
+  border-radius: 2rem;
+  margin: 0.5rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px; /* Adjust padding for smaller caption */
+  text-align: center;
+  font-size: 12px; /* Adjust font size for smaller caption */
+}
+
+
+
+@media (min-width: 601px) {
+  .image-caption {
+    text-align: center;
+    display: flex;
+      font-size: 1.3rem; /* Adjust font size for even larger screens */
+      padding: 24px 2.5rem; /* Adjust padding for even larger caption */
+  }
+}

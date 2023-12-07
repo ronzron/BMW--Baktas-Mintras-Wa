@@ -14,7 +14,7 @@ I learned a lot and it is very time consuming, however, it is rewarding.
 Here are useful resources that help me get out of my comfort zone and escaping tutorial hell[^1]\
 Helpful tools:\
 Generate color palette[^2]\
-Font Pairing[^3]\
+Font Pairing[^3]
 
 References and tools:
 [^1]: https://www.freecodecamp.org/news/project-based-learning/

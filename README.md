@@ -19,6 +19,6 @@ Font Pairing[^3]\
 References and tools:
 [^1]: https://www.freecodecamp.org/news/project-based-learning/
 [^2]: https://www.realtimecolors.com/?colors=0f0f0f-ffffff-155831-d7e4dc-c20002&fonts=Poppins-Poppins
-[^3]: https://www.fontpair.co/all\
+[^3]: https://www.fontpair.co/all
 
 and lots of google :D

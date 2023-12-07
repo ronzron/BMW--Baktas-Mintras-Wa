@@ -3,7 +3,7 @@
 ## Simple personal projects that shares awesome view places here in Dakbayan Davao, Philippines that you can soroy-soroy(Stroll).
 
 ### TODO:
-- [ ]adding features like blog that talks more details about the location, history and tips so you can make the best out of it. 
+- [ ] adding features like blog that talks more details about the location, history and tips so you can make the best out of it. 
 
 ### Why I made this project?
 This project is project-based learning. It intends to improve my frontend knowledge and I hope I keep improving.

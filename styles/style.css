@@ -351,7 +351,7 @@
     opacity: 0;
   }
   .hamburger.active .bar:nth-child(){
-    transform: translateX(8px)rotate(45deg);
+    transform: translateX(8px)rotate(-45deg);
   }
   .nav-menu{
     position: fixed;

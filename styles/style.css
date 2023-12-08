@@ -343,7 +343,7 @@
 }
 .bar{
   display: block;
-  width: 1.7rem;
+  width: 4rem;
   height:0.3rem;
   margin: 5px auto;
   background-color: white;
@@ -356,16 +356,16 @@
 
   }
   .hamburger.active .bar:nth-child(1){
-    transform: translateX(1.2px)rotate(45deg);
-    transform: translateY(8px);
+    transform: translateX(1px)rotate(45deg);
+    transform: translateY(9px)rotate(45deg)
   }
   .hamburger.active .bar:nth-child(2){
-    transform: translateX(1px)rotate(-90deg);
+    transform: translateX(1px)rotate(-45deg);
   }
   .navLinks{
     position: relative;
     background-color:#0a0a23 ;
-    left: 100%;
+    left: -100%;
     top:70px;
     gap:0;
     flex-direction: column;

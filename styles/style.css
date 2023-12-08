@@ -149,19 +149,19 @@ p{
   align-items: center;
   flex-wrap: wrap;
     justify-content: space-around;
-  max-width:30rem; 
-   margin: 0 auto;
+
 
 }
 
 .card {
-  width: 50rem;
+  width: 20rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
   box-sizing: border-box;
+  margin: 20px;
+
 }
 
 .card img {

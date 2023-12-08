@@ -1,15 +1,22 @@
 # BMW -Baktas-Mintras-Wa
-![image](https://github.com/ronzron/BMW--Baktas-Mintras-Wa/assets/75774813/120aafbb-436b-47e3-9676-649aebde22e1)
-## Simple personal projects that shares awesome view places here in Dakbayan Davao, Philippines that you can soroy-soroy(Stroll).
 
-### TODO:
+![image](https://github.com/ronzron/BMW--Baktas-Mintras-Wa/assets/75774813/120aafbb-436b-47e3-9676-649aebde22e1)
+
+## Simple personal projects that shares awesome view places here in Dakbayan Davao, Philippines that you can soroy-soroy(Stroll)
+
+### TODO
+
 - [ ] adding features like blog that talks more details about the location, history and tips so you can make the best out of it. 
 
 ### Why I made this project?
+
 This project is project-based learning. It intends to improve my frontend knowledge and I hope I keep improving.\
-Any feedback you can DM me. Link in my profile. 
+Any feedback you can DM me. Link in my profile
+
 ### Journey:
-I learned a lot and it is very time consuming, however, it is rewarding. 
+
+I learned a lot and it is very time consuming, however, it is rewarding
+
 ### Resources:
 Here are useful resources that help me get out of my comfort zone and escaping tutorial hell[^1]\
 Helpful tools:\

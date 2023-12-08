@@ -148,13 +148,10 @@ p{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-    justify-content: space-around;
-
-
 }
 
 .card {
-  width: 20rem;
+  width: 28rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -166,7 +163,7 @@ p{
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 20rem;
   max-width: 100%;
   max-height: 300px;
 }

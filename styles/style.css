@@ -352,13 +352,14 @@
 @media(max-width:768px){
   .hamburger{
     display: block;
+    margin-right: 5rem;
 
   }
   .hamburger.active .bar:nth-child(1){
     transform: translateX(8px)rotate(45deg);
   }
   .hamburger.active .bar:nth-child(2){
-    transform: translateX(8px)rotate(-45deg);
+    transform: translateX(-8px)rotate(-45deg);
   }
   .navLinks{
     position: fixed;

@@ -147,6 +147,7 @@ p{
 .card-container{
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -157,7 +158,7 @@ p{
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  margin: 20px;
+  margin: 1.2rem;
 
 }
 

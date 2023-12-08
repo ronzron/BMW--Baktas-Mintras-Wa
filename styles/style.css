@@ -147,14 +147,15 @@ p{
 .card-container{
   display: flex;
   align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
+    justify-content: space-around;
   max-width:30rem; 
    margin: 0 auto;
 
 }
 
 .card {
+  width: 20rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -248,3 +249,6 @@ p{
       padding: 24px 2.5rem; /* Adjust padding for even larger caption */
   }
 }
+
+
+/* @media (max-width:7) */

@@ -247,7 +247,7 @@ p{
 
 
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .card {
     width: 100%; /* Adjusted width for responsiveness on smaller screens */
     max-width: none; /* Remove max-width on smaller screens */
@@ -261,5 +261,11 @@ p{
 
   .card-content .btn {
     margin-left: 0; /* Remove margin on the left for better alignment */
+  }
+}
+
+@media(max-width: 475px){
+  .navLinks {
+    margin-left: 1px;
   }
 }

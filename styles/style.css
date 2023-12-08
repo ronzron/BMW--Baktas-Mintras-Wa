@@ -123,13 +123,21 @@
   margin-left: auto;
   display: flex;
 }
-.navLinks:hover {
-  color: red;
-}
+
 
 
   .topNavBar a{
-    color:white;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.369rem;
+    
+  }
+  .topNavBar a:hover{
+    color:var(--primary);
     padding: 10px;
     padding-bottom: 20px;
     text-decoration: none;

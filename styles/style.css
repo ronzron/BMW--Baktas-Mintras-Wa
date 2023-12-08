@@ -305,39 +305,3 @@
 
 
   /* Media query for small screens */
-  @media (max-width: 460px) {
-    .topNavBar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .close-button {
-      display: block; /* Show close button when hamburger menu is active */
-      position: absolute;
-      top: 10px; /* Adjust top position as needed */
-      right: 10px; /* Adjust right position as needed */
-      cursor: pointer;
-  }
-
-    .navLinks {
-        display: none; /* Hide the navigation links */
-        flex-direction: column;
-        order: 3; /* Set the order to 3 for reordering on small screens */
-    }
-
-    .hamburger-menu {
-        display: block; /* Show hamburger menu */
-        order: 2; /* Set the order to 2 for reordering on small screens */
-    }
-
-    .hamburger-menu.active .bar:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-
-    .hamburger-menu.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger-menu.active .bar:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-  }

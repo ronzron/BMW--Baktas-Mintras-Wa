@@ -123,8 +123,8 @@
   margin-left: auto;
   display: flex;
 }
-.navLinks::hover {
-  
+.navLinks:hover {
+  color: red;
 }
 
 

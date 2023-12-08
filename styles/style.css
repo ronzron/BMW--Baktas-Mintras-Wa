@@ -355,9 +355,9 @@
 
   }
   .hamburger.active .bar:nth-child(1){
-    opacity: 0;
+    transform: translateX(8px)rotate(45deg);
   }
-  .hamburger.active .bar:nth-child(){
+  .hamburger.active .bar:nth-child(2){
     transform: translateX(8px)rotate(-45deg);
   }
   .navLinks{

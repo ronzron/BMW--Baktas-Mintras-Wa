@@ -6,18 +6,18 @@
 
 ### TODO
 
-- [ ] adding features like blog that talks more details about the location, history and tips so you can make the best out of it. 
+- [ ] adding features like blog that talks more details about the location, history and tips so you can make the best out of it
 
 ### Why I made this project?
 
 This project is project-based learning. It intends to improve my frontend knowledge and I hope I keep improving.\
 Any feedback you can DM me. Link in my profile
 
-### Journey:
+### Journey
 
 I learned a lot and it is very time consuming, however, it is rewarding
 
-### Resources:
+### Resources
 
 Here are useful resources that help me get out of my comfort zone and escaping tutorial hell[^1]\
 Helpful tools:\

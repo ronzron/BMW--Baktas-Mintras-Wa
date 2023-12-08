@@ -196,6 +196,12 @@ p{
   color: var(--text);
   margin-left:13rem;
 }
+
+.card-content .btn:hover {
+  background-color: transparent; /* Change background color on hover */
+  color: var(--primary);
+}
+
 @media (min-width: 400px) {
   .card {
     margin: 10px; /* Adjust margin for smaller screens */

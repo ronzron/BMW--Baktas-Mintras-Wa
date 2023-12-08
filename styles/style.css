@@ -185,6 +185,8 @@ p{
 
 .card-content .btn{
   margin-top: auto;
+  border-color: var(--accent);
+  border-width: 5rem;
   display: block;
   padding: 1rem 1rem 1rem ;
   display: inline-block;

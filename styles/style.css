@@ -124,12 +124,7 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-size: 2.369rem;
-    background-color: #0a0a23;
-  position: fixed;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
+    
   }
 
   .title-section{

@@ -4,7 +4,7 @@
 
 ![Alt text](image.png)
 
-## Dark Mode :darkmode:
+## Dark Mode :waxing_crescent_moon:
 
 ![Alt text](image-1.png)
 

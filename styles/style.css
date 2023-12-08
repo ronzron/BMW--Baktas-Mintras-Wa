@@ -266,7 +266,7 @@ p{
 
 @media (max-width: 460px) {
   .topNavBar {
-    flex-direction: row; /* Change flex-direction to column for smaller screens */
+    flex-direction: column; /* Change flex-direction to column for smaller screens */
     align-items: flex-start; /* Align items to the start of the column */
   }
 
@@ -285,10 +285,7 @@ p{
   }
 }
 
-.hamburger-menu {
-  display: none; /* Hide hamburger menu by default */
-  cursor: pointer;
-}
+
 
 .bar {
   width: 25px;
@@ -296,6 +293,13 @@ p{
   background-color: white;
   margin: 6px 0;
   transition: 0.4s;
+}
+
+/* Media query for small screens */
+.hamburger-menu {
+  display: none; /* Hide hamburger menu by default */
+  cursor: pointer;
+  order: 1; /* Set the order to 1 for reordering on small screens */
 }
 
 /* Media query for small screens */
@@ -308,10 +312,12 @@ p{
   .navLinks {
       display: none; /* Hide the navigation links */
       flex-direction: column;
+      order: 3; /* Set the order to 3 for reordering on small screens */
   }
 
   .hamburger-menu {
       display: block; /* Show hamburger menu */
+      order: 2; /* Set the order to 2 for reordering on small screens */
   }
 
   .hamburger-menu.active .bar:nth-child(1) {

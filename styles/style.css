@@ -301,6 +301,13 @@ p{
   cursor: pointer;
   order: 1; /* Set the order to 1 for reordering on small screens */
 }
+.close-button {
+  display: none; /* Hide close button by default */
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  cursor: pointer;
+}
 
 /* Media query for small screens */
 @media (max-width: 460px) {

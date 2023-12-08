@@ -284,3 +284,45 @@ p{
     font-size: 2.369rem;
   }
 }
+
+.hamburger-menu {
+  display: none; /* Hide hamburger menu by default */
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Media query for small screens */
+@media (max-width: 460px) {
+  .topNavBar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navLinks {
+      display: none; /* Hide the navigation links */
+      flex-direction: column;
+  }
+
+  .hamburger-menu {
+      display: block; /* Show hamburger menu */
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .hamburger-menu.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

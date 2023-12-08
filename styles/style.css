@@ -120,7 +120,8 @@
    
 }
 .navLinks {
-  margin-left: auto; /* Push the links to the right */
+  margin-left: auto;
+  display: flex;
 }
 
 

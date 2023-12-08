@@ -297,3 +297,23 @@
 
 
 
+  @media (max-width: 500px) {
+    .topNavBar {
+        flex-direction: row; /* Keep the links in a row */
+        align-items: center;
+        justify-content: space-between; /* Add space between the logo and links */
+    }
+
+    #homePage,
+    #aboutPage {
+        margin-left: 0; /* Remove the left margin for links */
+    }
+
+    .navLinks {
+        margin-left: 0; /* Remove the left margin for links */
+    }
+
+    #logo {
+        margin-right: 0; /* Remove the right margin for the logo */
+    }
+}

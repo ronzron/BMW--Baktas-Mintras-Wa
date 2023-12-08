@@ -112,9 +112,7 @@ body{
 }
 #homePage,
 #aboutPage {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    /* Adjust margin between links */
+    margin-left: 50px; /* Adjust margin between links */
   
 }
 
@@ -249,7 +247,7 @@ p{
 
 
 
-@media (max-width: 370px) {
+@media (max-width: 380px) {
   .card {
     width: 100%; /* Adjusted width for responsiveness on smaller screens */
     max-width: none; /* Remove max-width on smaller screens */
@@ -263,8 +261,5 @@ p{
 
   .card-content .btn {
     margin-left: 0; /* Remove margin on the left for better alignment */
-  }
-  .navLink {
-    margin:0px;
   }
 }

@@ -144,13 +144,6 @@ p{
     color: var(--text);
 }
 
-.card-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .card {
   width: 28rem;
   border: 1px solid #ddd;
@@ -161,6 +154,15 @@ p{
   margin: 1.2rem;
 
 }
+
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
 
 .card img {
   width: 100%;

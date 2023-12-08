@@ -1,10 +1,15 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const hamburgerMenu = document.getElementById("hamburgerMenu");
+const hamburgerMenu = document.getElementById('hamburgerMenu');
+const navLinks = document.querySelector('.navLinks');
 
-    hamburgerMenu.addEventListener("click", function () {
-        this.classList.toggle("active");
-        // Toggle visibility of the navigation links
-        const navLinks = document.querySelector(".navLinks");
-        navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
-    });
+hamburgerMenu.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  hamburgerMenu.classList.toggle('active');
+});
+
+// Close the menu and reset styles when the window is resized
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 460) {
+    navLinks.classList.remove('active');
+    hamburgerMenu.classList.remove('active');
+  }
 });

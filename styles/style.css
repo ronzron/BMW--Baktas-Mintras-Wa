@@ -353,7 +353,7 @@
   .hamburger.active .bar:nth-child(){
     transform: translateX(8px)rotate(-45deg);
   }
-  .nav-menu{
+  .navLinks{
     position: fixed;
     left: -100%;
     top:70px;

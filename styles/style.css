@@ -356,13 +356,14 @@
 
   }
   .hamburger.active .bar:nth-child(1){
-    transform: translateX(8px)rotate(45deg);
+    transform: translateX(1px)rotate(45deg);
   }
   .hamburger.active .bar:nth-child(2){
-    transform: translateX(-8px)rotate(-45deg);
+    transform: translateX(5px)rotate(-45deg);
   }
   .navLinks{
     position: fixed;
+    background-color:#0a0a23 ;
     left: -100%;
     top:70px;
     gap:0;
@@ -371,7 +372,7 @@
   .nav-item{
     margin:16px 0;
   }
-  .nav-menu.active{
+  .navLinks.active{
     left:0;
   }
 }

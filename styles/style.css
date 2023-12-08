@@ -155,7 +155,7 @@ p{
 }
 
 .card {
-  width: 20rem;
+  width: 50rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -240,15 +240,6 @@ p{
 }
 
 
-
-@media (min-width: 601px) {
-  .image-caption {
-    text-align: center;
-    display: flex;
-      font-size: 1.3rem; /* Adjust font size for even larger screens */
-      padding: 24px 2.5rem; /* Adjust padding for even larger caption */
-  }
-}
 
 
 /* @media (max-width:7) */

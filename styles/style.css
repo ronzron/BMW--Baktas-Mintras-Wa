@@ -247,7 +247,7 @@ p{
 
 
 
-@media (min-width: 370px) {
+@media (max-width: 370px) {
   .card {
     width: 100%; /* Adjusted width for responsiveness on smaller screens */
     max-width: none; /* Remove max-width on smaller screens */

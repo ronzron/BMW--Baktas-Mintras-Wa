@@ -264,8 +264,23 @@ p{
   }
 }
 
-@media(max-width: 475px){
+@media (max-width: 460px) {
+  .topNavBar {
+    flex-direction: row; /* Change flex-direction to column for smaller screens */
+    align-items: flex-start; /* Align items to the start of the column */
+  }
+
   .navLinks {
-    margin-left: 1px;
+    margin-top: 1rem; /* Add some top margin for spacing between the links */
+  }
+
+  .topNavBar a {
+    display: block; /* Change links to block display for full width */
+    padding: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.369rem;
   }
 }

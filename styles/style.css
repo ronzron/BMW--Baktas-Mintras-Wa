@@ -285,6 +285,13 @@
     }
   }
 
+  .navLinks{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 24px;
+  }
+
   @media (max-width: 460px) {
     .topNavBar {
       flex-direction: row; /* Change flex-direction to column for smaller screens */

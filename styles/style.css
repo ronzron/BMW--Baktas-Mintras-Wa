@@ -245,4 +245,25 @@ p{
 
 
 
-/* @media (max-width:7) */
+@media (min-width: 400px) {
+  .card {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (min-width: 374px) {
+  .card {
+    width: 100%; /* Adjusted width for responsiveness on smaller screens */
+    max-width: none; /* Remove max-width on smaller screens */
+    height: auto; /* Set height to auto for dynamic height based on content */
+    margin: 1rem; /* Adjusted margin for better spacing */
+  }
+
+  .card img {
+    height: auto; /* Set height to auto for dynamic height based on content */
+  }
+
+  .card-content .btn {
+    margin-left: 0; /* Remove margin on the left for better alignment */
+  }
+}

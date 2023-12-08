@@ -4,8 +4,9 @@
 
 ![Alt text](image.png)
 
-# Dark Mode
+## Dark Mode :darkmode:
 
+![Alt text](image-1.png)
 
 ## Simple personal projects that shares awesome view places here in Dakbayan Davao, Philippines that you can soroy-soroy(Stroll)
 

@@ -367,4 +367,10 @@
     gap:0;
     flex-direction: column;
   }
+  .nav-item{
+    margin:16px 0;
+  }
+  .nav-menu.active{
+    left:0;
+  }
 }

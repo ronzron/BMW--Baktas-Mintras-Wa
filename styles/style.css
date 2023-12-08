@@ -267,7 +267,7 @@
 
   @media (max-width: 460px) {
     .topNavBar {
-      flex-direction: column; /* Change flex-direction to column for smaller screens */
+      flex-direction: row; /* Change flex-direction to column for smaller screens */
       align-items: flex-start; /* Align items to the start of the column */
       height:auto;
     }

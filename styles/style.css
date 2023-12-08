@@ -106,15 +106,18 @@
       background-color: #0a0a23;
       position: fixed;
       display: flex;
-      width: 100%;
-      justify-content: space-between;
+      width: 100%;  
       align-items: center;
   }
-  #homePage,
-  #aboutPage {
-      margin-left: 50px; /* Adjust margin between links */
-    
+
+  #logo{
+    margin-right: 80%;
   }
+  #homePage, #aboutPage {
+    margin-left: 3rem;
+   
+}
+
 
   .topNavBar a{
     color:white;

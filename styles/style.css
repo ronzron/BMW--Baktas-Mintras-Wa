@@ -361,12 +361,12 @@
       transform: rotate(45deg) translate(-5px, -6px);
     }
     #homePage,
-  #aboutPage {
+    #aboutPage {
     order: 1; /* Move Home and About links to the right side */
-  }
+    }
 
-  .topNavBar.active #homePage,
-  .topNavBar.active #aboutPage {
-    order: 3; /* Keep Home and About links below the close button when active */
+   .topNavBar.active #homePage,
+   .topNavBar.active #aboutPage {
+    order: 2; /* Keep Home and About links below the close button when active */
   }
   }

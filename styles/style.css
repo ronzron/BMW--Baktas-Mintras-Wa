@@ -173,12 +173,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     margin: 5rem;
+    transition: all .3s ease-in-out;
 
   }
 
   .card:hover {
     transform: scale(1.06);
-    transition: all .2s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
     

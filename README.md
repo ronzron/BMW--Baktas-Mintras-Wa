@@ -1,6 +1,6 @@
 # BMW -Baktas-Mintras-Wa
 
-# Light Mode
+## Light Mode
 
 ![Alt text](image.png)
 

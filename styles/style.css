@@ -106,6 +106,10 @@
     margin-top: 1em;
    
   }
+  .subtitle-section h4{
+    font-size: clamp(0.5rem, 1rem + 10vh,2rem) !important;
+
+  }
   .topNavBar{
       background-color: #0a0a23;
       position: fixed;

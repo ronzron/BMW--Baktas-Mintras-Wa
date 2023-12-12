@@ -102,7 +102,9 @@
   }
 
   .title-section h1{
-    font-size:clamp(5rem, 1rem+ 10vh,14rem);
+    font-size: clamp(3rem, 1rem + 10vh,5rem) !important;
+    margin-top: 1em;
+   
   }
   .topNavBar{
       background-color: #0a0a23;

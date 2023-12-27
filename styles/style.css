@@ -100,13 +100,16 @@
       margin:0;
       padding:0;
   }
-
-  .title-section h1{
-    font-size: clamp(3rem, 1rem + 10vh,5rem) !important;
-    margin-top: 1em;
+  .title-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh; 
+  }
+
+  .title-section h1{
+    font-size: clamp(3rem, 1rem + 10vh, 5rem) !important;
+    margin-top: 1em;
   }
   .subtitle-section h4{
     font-size: clamp(0.5rem, 1rem + 10vh,2rem) !important;
@@ -157,12 +160,7 @@
     
   }
 
-  .title-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-  }
+  
   .subtitle-section{
     display: flex;
     justify-content: center;

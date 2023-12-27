@@ -108,6 +108,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto; /* Add this line to center the h1 element */
   }
   .subtitle-section h4{
     font-size: clamp(0.5rem, 1rem + 10vh,2rem) !important;
